@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Italbytz.Infrastructure.LinearProgramming", "Italbytz.Infrastructure.LinearProgramming\Italbytz.Infrastructure.LinearProgramming.csproj", "{F34ADDD0-6AA1-4925-A06E-403DEEB705EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Italbytz.Infrastructure.LinearProgramming.Tests", "Italbytz.Infrastructure.LinearProgramming.Tests\Italbytz.Infrastructure.LinearProgramming.Tests.csproj", "{FD5E06A6-F785-4361-B721-653303BDA6E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34ADDD0-6AA1-4925-A06E-403DEEB705EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34ADDD0-6AA1-4925-A06E-403DEEB705EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34ADDD0-6AA1-4925-A06E-403DEEB705EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34ADDD0-6AA1-4925-A06E-403DEEB705EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5E06A6-F785-4361-B721-653303BDA6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5E06A6-F785-4361-B721-653303BDA6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5E06A6-F785-4361-B721-653303BDA6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5E06A6-F785-4361-B721-653303BDA6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

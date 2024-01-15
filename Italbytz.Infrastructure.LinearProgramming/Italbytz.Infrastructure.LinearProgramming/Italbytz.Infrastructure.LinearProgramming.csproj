@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LpSolveDotNet" Version="4.0.0" />
+      <PackageReference Include="LpSolveDotNet.Native.linux-x64" Version="4.0.0" />
+      <PackageReference Include="LpSolveDotNet.Native.linux-x86" Version="4.0.0" />
+      <PackageReference Include="LpSolveDotNet.Native.osx-x86" Version="4.0.0" />
+      <PackageReference Include="LpSolveDotNet.Native.win-x64" Version="4.0.0" />
+      <PackageReference Include="LpSolveDotNet.Native.win-x86" Version="4.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0"/>
+    </ItemGroup>
+
+</Project>
