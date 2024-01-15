@@ -1,0 +1,16 @@
+name: CI
+on: 
+  push:
+  schedule:
+    - cron:  '0 1 * * *'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET SDK 
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.x'
+      - run: cd Italbytz.Infrastructure.LinearProgramming/Italbytz.Infrastructure.LinearProgramming.Tests && dotnet test
+

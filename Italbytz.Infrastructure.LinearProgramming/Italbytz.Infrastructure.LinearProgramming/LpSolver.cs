@@ -17,6 +17,7 @@ namespace Italbytz.Infrastructure.LinearProgramming {
 
         public void SolveFromLpSolveNativeFormat(string lpformat)
         {
+            LpSolve.Init();
             var lpTempFile = Path.GetTempFileName();
             using var outputFile = new StreamWriter(lpTempFile);
             outputFile.Write(lpformat);
