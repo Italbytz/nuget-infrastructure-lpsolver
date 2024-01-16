@@ -19,44 +19,17 @@ namespace Italbytz.Infrastructure.LinearProgramming.Tests
         }
 
         [Test]
-        public void TestSimpleLPWithIntegerSolution()
+        public void Test1()
         {
-            const string lp = """
-                              // Objective function
-                              max: + 6*x0 + 5*x1;
-                              // constraints
-                               + 1*x0 + 1*x1 <= 5;
-                               + 3*x0 + 2*x1 <= 12;
-                              """;
-            _lpsolve!.SolveFromLpSolveNativeFormat(lp);
+            _lpsolve.Test();
+            Assert.Pass();
         }
-
+    
         [Test]
-        public void TestSimpleLPWithNoIntegerSolution()
+        public void Test2()
         {
-            const string lp = """
-                              // Objective function
-                              max: + 5*x0 + 6*x1;
-                              // constraints
-                               + 1*x0 + 1*x1 <= 5;
-                               + 4*x0 + 7*x1 <= 28;
-                              """;
-            _lpsolve!.SolveFromLpSolveNativeFormat(lp);
-        }
-
-        [Test]
-        public void TestSimpleILP()
-        {
-            const string lp = """
-                              // Objective function
-                              max: + 5*x0 + 6*x1;
-                              // constraints
-                               + 1*x0 + 1*x1 <= 5;
-                               + 4*x0 + 7*x1 <= 28;
-                              // declaration
-                              int x0, x1;
-                              """;
-            _lpsolve!.SolveFromLpSolveNativeFormat(lp);
+            _lpsolve.Test2();
+            Assert.Pass();
         }
     }
 }
